@@ -25,7 +25,7 @@ const connectionConfig: ConnectionConfig = {
 //const network = WalletAdapterNetwork.Devnet;
 //Mainnet
 const network = WalletAdapterNetwork.Mainnet;
-const endpoint = "http://devnet.helius-rpc.com/?api-key=a4940974-a8b5-45bd-b48c-09b1f1ef8b02";
+const endpoint = "https://devnet.helius-rpc.com/?api-key=a4940974-a8b5-45bd-b48c-09b1f1ef8b02";
 
 export default function App() {
   const wallets = useMemo(
