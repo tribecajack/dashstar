@@ -4,7 +4,7 @@ import { OBLIGATION_SIZE, parseObligation } from '../../utils/state';
 import { getAssociatedTokenAddress, getMint, getAccount } from '@solana/spl-token';
 import { WRAPPED_SOL } from '../../utils/constants';
 
-const connection = new Connection('https://devnet.helius-rpc.com/?api-key=0f8a8423-3f18-414e-b81e-c6cfe5405be0');
+const connection = new Connection('https://api.devnet.solana.com');
 const lendingMarketPubkey = new PublicKey('7T12b6nyt6vbgj1rvaW2PVvicTvsrdSY5YNNSchGTqLg')
 
 export const getObligationData = async (obligationPubkey: PublicKey) => {

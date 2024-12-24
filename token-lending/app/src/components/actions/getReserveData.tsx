@@ -2,7 +2,7 @@ import { Connection, PublicKey } from '@solana/web3.js';
 import { LENDING_PROGRAM_ID } from '../../utils/constants';
 import { parseReserve } from '../../utils/state';
 
-const connection = new Connection('https://devnet.helius-rpc.com/?api-key=0f8a8423-3f18-414e-b81e-c6cfe5405be0');
+const connection = new Connection('https://api.devnet.solana.com');
 const lendingMarketPubkey = new PublicKey('7T12b6nyt6vbgj1rvaW2PVvicTvsrdSY5YNNSchGTqLg')
 
 export const getReserveData = async (reservePubkey: PublicKey) => {
